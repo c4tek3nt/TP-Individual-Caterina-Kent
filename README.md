@@ -8,17 +8,17 @@
 
 ## Conceptos de la materia 
 
-##Polimorfismo
+### Polimorfismo
 **Lo utilize en abonoFan/AbonoVip y BandaRock/BandaTrap/BandaIndie para que el asistente tratara igual a cualquier abono y la productora tratara igual a cualquier banda, evitando asi utilizar if y agregar casos nuevos sin modificar el codigo ya existente.
 
-##Herencia
+### Herencia
 **BandaRock, BandaTrap y BandaIndie herendan la clase Banda ya que las tres compraten nombre, presupuesto y canon, de esta forma ese codigo se escribe solo una vez.
 
-##Colecciones y Orden Superior
+### Colecciones y Orden Superior
 **Se usan en entradasAnioAnterior, filter, bandasConEntrada, map, asSet, etc. para resolver consultas en una linea sin recorrer las listas a mano.
 
-##Manejo de errores
+### Manejo de errores
 **Se puede ver en puedeComprarEntrada donde utilizo self.error("..."), en donde si el asistente no tiene saldo positivo, se le envia un mensaje claro para cortar la compra. La validacion se hace antes de que se cree la entrada, para que una compra fallida no deje el estado a medias.
 
-##Clase y metodos Abstractos
+### Clase y metodos Abstractos
 **Se puede ver en la clase Banda con gastoExtra y popularidad los cuales no tienen cuerpo, al ser abstractos obligan a cada subclase de banda a definir lo que les corresponde.
